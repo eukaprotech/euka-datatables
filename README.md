@@ -64,6 +64,9 @@ let options = {
     options={options}
 />
 ```
+
+# Note
+EukaDatatable has options for the table (table level options) as well as options for each column (column level options).
    
 # Pagination
 Pagination is a table level option named 'paginate'. By default pagination is enabled. 
