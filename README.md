@@ -243,7 +243,7 @@ let options = {//table options
 };
 ```
 
-Declaring child property values through functions; conditional based values:
+Declaring child property values through functions (conditional based values):
 
 ```javascript
 let options = {//table options
