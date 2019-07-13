@@ -24,7 +24,13 @@ A react data table component built on top of html table element.
 # Getting Started
 Install:
 
-```npm install euka-datatables --save```
+npm:
+
+```npm install euka-datatables```
+
+yarn:
+
+```yarn add euka-datatables```
 
 # Usage
 
