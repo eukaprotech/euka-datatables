@@ -28,6 +28,8 @@ Install:
 
 ```npm install euka-datatables --save```
 
+# Usage
+
 ```javascript
 import EukaDataTable from "euka-datatables";
 
