@@ -1,5 +1,3 @@
-# COMING SOON
-
 # Versions
 * 1.0.0
 
