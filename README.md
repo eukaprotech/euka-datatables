@@ -8,6 +8,10 @@ A react data table component built on top of html table element.
 
 # Features
 * Pagination
+   * Set initial page
+   * Set records per page
+   * Set records per page options
+   * Listen to page change
 * Search
 * Sort
 * Custom Cell Render
@@ -44,20 +48,9 @@ let columns = [
         label:'Address'
     }
 ];
-let recordsPerPage = 10;
-let title = 'Client List';//this can also be a html element or react component
-let recordsPerPageOptions = {10:10, 15:15, 20:20, 25:25, 50:50, 100:100, 150:150, 200:200, All:-1};
+let title = 'Client List';//this can be a html element or react component
 let options = {
-    paginate:true,
-    recordsPerPage:recordsPerPage,
-    recordsPerPageOptions:recordsPerPageOptions,
-    search:true,
-    page:1,
-    selectRows:true,
-    responsive:'collapse',
-    onRowsSelect:(selectedDataIndices, selectedData)=>{
-
-    }
+    responsive:'collapse'
 };
 
 <EukaDataTable
@@ -73,12 +66,17 @@ let options = {
 Pagination is a table level option named 'paginate'. By default pagination is enabled. 
 Disable pagination by setting 'paginate' to false in table options. To set number of records per page use table level 
 option named 'recordsPerPage'. To provide a list of records per page for user to choose from use table level option named 'recordsPerPageOptions'.
+To listen to page change use table level option named 'onPageChange'.
 
 ```javascript
 let options = {//table options
     paginate:true,
+    page:1,//initial page to be displayed
     recordsPerPage:5,//initial records per page. Default is 10
-    recordsPerPageOptions:{5:5, 10:10, 20:20},//if empty {} or null, the filter is not displayed
+    recordsPerPageOptions:{5:5, 10:10, 20:20, All:-1},//if empty {} or null; the filter is not displayed
+    onPageChange:(previousPage, currentPage)=>{
+        
+    }
 };
 ```
 
@@ -146,7 +144,7 @@ let columns = [
 
 # Select Rows
 Selection of rows is a table level option named 'selectRows'. By default selection of rows is disabled. To enable selection set 'selectRows' to true in table options.
-To get the rows selected set 'onRowsSelect' in table options.
+To listen to changes in the rows selected set 'onRowsSelect' in table options.
 
 ```javascript
 let options = {//table options
