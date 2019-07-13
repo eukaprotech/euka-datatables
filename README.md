@@ -4,6 +4,8 @@
 # Description
 A react data table component built on top of html table element.
 
+![](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/screencapture-localhost-3000-2019-07-13-16_36_14.png)
+
 # Features
 * Pagination
    * Set initial page
