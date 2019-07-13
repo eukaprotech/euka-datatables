@@ -11,11 +11,12 @@ A react data table component built on top of html table element.
    * Set initial page
    * Set records per page
    * Set records per page options
-   * Listen to page change
+* Listen to table updates
 * Search
 * Sort
 * Custom Cell Render
 * Select Rows
+   * Listen to selection changes
 * Responsive
    * Collapsible Mode
    * Stacked Mode
@@ -66,18 +67,42 @@ let options = {
 Pagination is a table level option named 'paginate'. By default pagination is enabled. 
 Disable pagination by setting 'paginate' to false in table options. To set number of records per page use table level 
 option named 'recordsPerPage'. To provide a list of records per page for user to choose from use table level option named 'recordsPerPageOptions'.
-To listen to page change use table level option named 'onPageChange'.
 
 ```javascript
 let options = {//table options
     paginate:true,
     page:1,//initial page to be displayed
     recordsPerPage:5,//initial records per page. Default is 10
-    recordsPerPageOptions:{5:5, 10:10, 20:20, All:-1},//if empty {} or null; the filter is not displayed
-    onPageChange:(previousPage, currentPage)=>{
-        
+    recordsPerPageOptions:{5:5, 10:10, 20:20, All:-1}//if empty {} or null; the filter is not displayed
+};
+```
+
+# Listen to Table Updates
+You can listen to all table updates by using the table level option named 'onTableUpdate' whose value is a function that receive a currentInformation object containing common EukaDatatable properties.
+
+
+```javascript
+let options = {//table options
+    onTableUpdate:(currentInformation)=>{
+        //current info is an object containing common EukaDatatable properties
     }
 };
+```
+
+The currentInformation object has below properties:
+
+```
+{
+    searching:boolean,
+    searchText:string,
+    searchResultIndices:array,
+    paginationInfo:object,
+    data:array,
+    sortingProperty:string,
+    sortedAscending:boolean,
+    sortResultIndices:array,
+    selectionInfo:object
+}
 ```
 
 # Search
