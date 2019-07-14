@@ -91,7 +91,7 @@ let options = {//table options
 ```
 
 # Listen to Table Updates
-You can listen to all table updates by using the table level option named 'onTableUpdate' whose value is a function that receive a currentInformation object containing common EukaDatatable properties.
+You can listen to all table updates by using the table level option named 'onTableUpdate' whose value is a function that receives a currentInformation object containing common EukaDatatable updates.
 
 
 ```javascript
