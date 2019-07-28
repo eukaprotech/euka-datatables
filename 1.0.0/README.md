@@ -1,5 +1,4 @@
 # Version 1.0.0
-
 # Description
 A react data table component built on top of html table element.
 
