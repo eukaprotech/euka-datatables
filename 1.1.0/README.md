@@ -1,10 +1,4 @@
-![](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/screencapture-localhost-3000-2019-07-13-16_27_18.png)
-
-[View more screenshots](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/README.md "View screenshots")
-
-# Versions
-* 1.0.0
-* 1.1.0
+# Version 1.0.1
 
 # Description
 A react data table component built on top of html table element.

@@ -1,10 +1,4 @@
-![](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/screencapture-localhost-3000-2019-07-13-16_27_18.png)
-
-[View more screenshots](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/README.md "View screenshots")
-
-# Versions
-* 1.0.0
-* 1.1.0
+# Version 1.0.0
 
 # Description
 A react data table component built on top of html table element.
@@ -15,7 +9,6 @@ A react data table component built on top of html table element.
    * Set records per page
    * Set records per page options
 * Listen to table updates
-* Listen to row and cell click
 * Search
 * Sort
 * Custom Cell Render
@@ -119,52 +112,6 @@ The currentInformation object has below properties:
     selectionInfo:object
 }
 ```
-
-# Listen to Row and Cell Click
-You can listen to row click by using the table level option named 'onRowClick'.
-
-```javascript
-let options = {//table options
-    onRowClick:(rowInformation)=>{
-        
-    }
-};
-```
-
-The rowInformation has below properties:
-
-```
-{
-  rowIndex:number,
-  dataIndex:number,
-  record:object
-}
-```
-
-You can listen to cell click by using the table level option named 'onCellClick'.
-
-```javascript
-let options = {//table options
-    onCellClick:(cellInformation)=>{
-        
-    }
-};
-```
-
-The cellInformation has below properties:
-
-```
-{
-  columnIndex:number,
-  rowIndex:number,
-  dataIndex:number,
-  cellValue,
-  column:object,
-  record:object
-}
-```
-
-
 
 # Search
 Search is a table level option named 'search'. By default search is enabled. 
