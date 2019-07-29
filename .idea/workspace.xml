@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cea59b50-8297-49da-995c-2a6369b1289c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screenshots/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.23.09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.23.42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.24.03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.24.37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/Screenshot2019-07-29at08.44.18.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.17.10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.46.22.png" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,8 +17,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.46.22.png">
+        <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.17.40.png">
           <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.18.18.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.18.36.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.20.21.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.21.09.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/screenshots/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="180">
+                <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -43,38 +70,6 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.17.10.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.17.14.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/screenshots/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.17.40.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.18.18.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.18.36.png">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -184,12 +179,12 @@
       <updated>1564329970900</updated>
       <workItem from="1564329972165" duration="1898000" />
       <workItem from="1564338529882" duration="435000" />
-      <workItem from="1564378907710" duration="2065000" />
+      <workItem from="1564378907710" duration="2226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4398000" />
+    <option name="totallyTimeSpent" value="4559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="972" extended-state="0" />
@@ -270,13 +265,19 @@
     <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.24.37.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.17.14.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.17.40.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.18.18.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.18.36.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.20.21.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.21.09.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.46.22.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.47.57.png">
@@ -291,23 +292,17 @@
     <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.17.10.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.17.14.png">
+    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.46.22.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.17.40.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.18.18.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.18.36.png">
+    <entry file="file://$PROJECT_DIR$/screenshots/Screenshot2019-07-29at07.21.09.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <first_editor relative-caret-position="180">
+            <caret line="12" column="104" selection-start-line="12" selection-start-column="104" selection-end-line="12" selection-end-column="104" />
           </first_editor>
           <second_editor />
         </state>
