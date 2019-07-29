@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cea59b50-8297-49da-995c-2a6369b1289c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/1.1.1/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.17.14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.17.40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.18.18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.18.36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.20.21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.21.09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.23.09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.23.42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.24.03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.24.37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.46.22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.47.57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.48.24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.50.23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 08.44.18.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.1.0/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/1.1.0/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screenshots/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/screenshots/screencapture-localhost-3000-2019-07-13-16_27_18.png" beforeDir="false" />
@@ -28,8 +45,20 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <first_editor relative-caret-position="195">
+                <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.1.0/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="225">
+                <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -37,6 +66,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1.1.1/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="290" column="9" lean-forward="true" selection-start-line="290" selection-start-column="9" selection-end-line="290" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/screenshots/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -58,8 +99,10 @@
       <list>
         <option value="$PROJECT_DIR$/1.0.1/README.md" />
         <option value="$PROJECT_DIR$/1.0.0/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/screenshots/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/1.1.0/README.md" />
+        <option value="$PROJECT_DIR$/1.1.1/README.md" />
       </list>
     </option>
   </component>
@@ -68,16 +111,6 @@
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/github-euka-datatables.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -100,6 +133,16 @@
               <item name="github-euka-datatables" type="b2602c69:ProjectViewProjectNode" />
               <item name="github-euka-datatables" type="462c0819:PsiDirectoryNode" />
               <item name="1.0.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github-euka-datatables" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github-euka-datatables" type="462c0819:PsiDirectoryNode" />
+              <item name="1.1.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github-euka-datatables" type="b2602c69:ProjectViewProjectNode" />
+              <item name="github-euka-datatables" type="462c0819:PsiDirectoryNode" />
+              <item name="1.1.1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="github-euka-datatables" type="b2602c69:ProjectViewProjectNode" />
@@ -152,12 +195,12 @@
       <updated>1564329970900</updated>
       <workItem from="1564329972165" duration="1898000" />
       <workItem from="1564338529882" duration="435000" />
-      <workItem from="1564378907710" duration="682000" />
+      <workItem from="1564378907710" duration="813000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3015000" />
+    <option name="totallyTimeSpent" value="3146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="972" extended-state="0" />
@@ -186,16 +229,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1.1.0/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="210">
-            <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.0.0/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -221,21 +254,41 @@
     <entry file="file://$PROJECT_DIR$/screenshots/Screenshot 2019-07-29 at 07.17.14.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/screenshots/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="360">
             <caret line="24" column="113" lean-forward="true" selection-start-line="24" selection-start-column="113" selection-end-line="24" selection-end-column="113" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.1.0/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.1.1/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="290" column="9" lean-forward="true" selection-start-line="290" selection-start-column="9" selection-end-line="290" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>

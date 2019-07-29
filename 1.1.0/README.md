@@ -1,4 +1,4 @@
-# Version 1.0.1
+# Version 1.1.0
 
 # Description
 A react data table component built on top of html table element.
