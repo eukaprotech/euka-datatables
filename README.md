@@ -1,4 +1,4 @@
-![](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/Screenshot 2019-07-29 at 07.17.14.png)
+![](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/Screenshot2019-07-29at07.17.14.png)
 
 [View more screenshots](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/README.md "View screenshots")
 
