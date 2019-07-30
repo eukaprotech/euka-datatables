@@ -1,3 +1,5 @@
+[View Description](https://github.com/eukaprotech/euka-datatables/blob/master/README.md "Click to View How to use EukaDatatables")
+
 ![](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/Screenshot2019-07-29at07.17.10.png)
 
 ![](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/Screenshot2019-07-29at07.17.13.png)
