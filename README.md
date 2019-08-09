@@ -6,6 +6,7 @@
 * [1.0.0](https://github.com/eukaprotech/euka-datatables/blob/master/1.0.0/README.md "Version 1.0.0 Overview")
 * [1.1.0](https://github.com/eukaprotech/euka-datatables/blob/master/1.1.0/README.md "Version 1.1.0 Overview")
 * [1.1.1](https://github.com/eukaprotech/euka-datatables/blob/master/1.1.1/README.md "Version 1.1.1 Overview")
+* [1.1.2](https://github.com/eukaprotech/euka-datatables/blob/master/1.1.2/README.md "Version 1.1.2 Overview")
 
 # Description
 A react data table component built on top of html table element.
@@ -21,12 +22,13 @@ A react data table component built on top of html table element.
 * Sort
 * Custom Cell Render
 * Select Rows
-   * Listen to selection changes
+   * Listen to selection changes 
 * Responsive
    * Collapsible Mode
    * Stacked Mode
    * Scrollable Mode
 * Child Tables  
+* Language Settings
 
 # Getting Started
 Install:
@@ -320,4 +322,23 @@ let options = {//table options
         }
     }
 }
+```
+
+# Language Settings
+Language is a table level option named 'language'. Language option allows the setting of common EukaDataTable phrases.
+To provide custom phrases, use table level option named 'language'.
+
+```javascript
+let options = {//table options
+    language:{//the default language settings are as listed
+        emptyTable:'No records found',
+        zeroRecordsOnFilter:'No matching records found',
+        search:'Search:',
+        recordsPerPage:'Records per page:',
+        paginationInfo:'Showing _START_ to _END_ of _TOTAL_ records',//The key words _START_, _END_ and _TOTAL_ must be in your custom phrase for replacement with their corresponding numeric values
+        paginationInfoFiltered:'filtered from _MAX_ records',//The key word _MAX_ must be in your custom phrase for replacement with its corresponding numeric value
+        pages:'_TOTAL_ pages',//The key word _TOTAL_ must be in your custom phrase for replacement with its corresponding numeric value
+        thousandSeparator:','
+    }
+};
 ```
