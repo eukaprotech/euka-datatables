@@ -1,4 +1,4 @@
-# Version 1.0.0
+# Version 1.1.3
 
 # Description
 A react data table component built on top of html table element.
@@ -9,16 +9,19 @@ A react data table component built on top of html table element.
    * Set records per page
    * Set records per page options
 * Listen to table updates
+* Listen to row and cell click
 * Search
 * Sort
 * Custom Cell Render
 * Select Rows
-   * Listen to selection changes
+   * Listen to selection changes 
 * Responsive
    * Collapsible Mode
    * Stacked Mode
    * Scrollable Mode
 * Child Tables  
+* Language Settings
+* Server Side Handling
 
 # Getting Started
 Install:
@@ -112,6 +115,52 @@ The currentInformation object has below properties:
     selectionInfo:object
 }
 ```
+
+# Listen to Row and Cell Click
+You can listen to row click by using the table level option named 'onRowClick'.
+
+```javascript
+let options = {//table options
+    onRowClick:(rowInformation)=>{
+        
+    }
+};
+```
+
+The rowInformation has below properties:
+
+```
+{
+  rowIndex:number,
+  dataIndex:number,
+  record:object
+}
+```
+
+You can listen to cell click by using the table level option named 'onCellClick'.
+
+```javascript
+let options = {//table options
+    onCellClick:(cellInformation)=>{
+        
+    }
+};
+```
+
+The cellInformation has below properties:
+
+```
+{
+  columnIndex:number,
+  rowIndex:number,
+  dataIndex:number,
+  cellValue,
+  column:object,
+  record:object
+}
+```
+
+
 
 # Search
 Search is a table level option named 'search'. By default search is enabled. 
@@ -267,3 +316,62 @@ let options = {//table options
     }
 }
 ```
+
+# Language Settings
+Language is a table level option named 'language'. Language option allows the setting of common EukaDataTable phrases.
+To provide custom phrases, use table level option named 'language'.
+
+```javascript
+let options = {//table options
+    language:{//the default language settings are as listed
+        emptyTable:'No records found',
+        zeroRecordsOnFilter:'No matching records found',
+        search:'Search:',
+        recordsPerPage:'Records per page:',
+        paginationInfo:'Showing _START_ to _END_ of _TOTAL_ records',//The key words _START_, _END_ and _TOTAL_ must be in your custom phrase for replacement with their corresponding numeric values
+        paginationInfoFiltered:'filtered from _MAX_ records',//The key word _MAX_ must be in your custom phrase for replacement with its corresponding numeric value
+        pages:'_TOTAL_ pages',//The key word _TOTAL_ must be in your custom phrase for replacement with its corresponding numeric value
+        thousandSeparator:','
+    }
+};
+```
+
+# Server Side Handling
+
+Server Side Handling is a table level option named 'serverSide'. Server Side option allows the handling of required data changes from server end. The changes include getting data required on pagination, on searching 
+and on changing records-per-page. To use 'serverSide' option, prepare your server to serve paginated data.
+
+```javascript
+let options = {//table options
+    serverSide:{//the default serverSide settings are as listed
+        enable:false,//setting this to true enables serverSide feature
+        totalRecords:dataLength,//the total records available in the server
+        showFilteredFrom:false,//to show the 'filtered from phrase' set this to true . 
+        maxRecords:dataLength//the maximum records from which data is filtered; used in 'filtered from phrase'. NOTE: If not interested with the 'filtered from phrase', you can ignore the maxRecords value
+    }
+};
+```
+
+To handle serverSide requirements at runtime you need to register 'onTableUpdate' which is a table level option.
+
+```javascript
+let options = {//table options
+    onTableUpdate:(currentInformation)=>{//the important items for server side requests are as determined below from currentInformation object of onTableChange listener
+        let {currentPage, recordsPerPage} = currentInformation.paginationInfo;
+        let {searching, searchText, sortingProperty, sortedAscending} = currentInformation;
+        this.fetchData({page:currentPage, recordsPerPage, searching, searchText, sortingProperty, sortedAscending});//fetchData is just a sample custom function that should fetch data from server on table change.
+    }
+};
+```
+
+If the sample fetchData function returns a success response, update the EukaDataTable with the currentPage, data, totalRecords and maxRecords from the server:
+
+```javascript
+let options = {...this.state.options};
+options.page=currentPage;//the currentPage from the onTableUpdate listener; which can also be a part of the server response
+options.serverSide.totalRecords = totalRecords; //totalRecords being a value from the server response
+options.serverSide.maxRecords = maxRecords;//maxRecords being a value from the server response. NOTE: If not interested with the 'filtered from phrase', you can ignore the maxRecords value
+let data = newData;//newData being the data from the server response
+this.setState({data, options});//update the state that manages EukaDataTable to reflect the server response.
+```
+
