@@ -2,14 +2,6 @@
 
 [View more screenshots](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/README.md "View screenshots")
 
-# Versions
-* [1.0.0](https://github.com/eukaprotech/euka-datatables/blob/master/1.0.0/README.md "Version 1.0.0 Overview")
-* [1.1.0](https://github.com/eukaprotech/euka-datatables/blob/master/1.1.0/README.md "Version 1.1.0 Overview")
-* [1.1.1](https://github.com/eukaprotech/euka-datatables/blob/master/1.1.1/README.md "Version 1.1.1 Overview")
-* [1.1.2](https://github.com/eukaprotech/euka-datatables/blob/master/1.1.2/README.md "Version 1.1.2 Overview")
-* [1.1.3](https://github.com/eukaprotech/euka-datatables/blob/master/1.1.3/README.md "Version 1.1.3 Overview")
-* [1.1.4](https://github.com/eukaprotech/euka-datatables/blob/master/1.1.4/README.md "Version 1.1.4 Overview")
-
 # Description
 A react data table component built on top of html table element.
 
