@@ -394,7 +394,7 @@ let data = newData;//newData being the data from the server response
 this.setState({data, options});//update the state that manages EukaDataTable to reflect the server response.
 ```
 
-#Styling
+# Styling
 
 Create a css file with custom styling as shown below. Import the file in the class that renders EukaDataTable.
 
