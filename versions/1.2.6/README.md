@@ -1,7 +1,7 @@
-# Version 1.2.2
-
 # Description
 A react data table component built on top of html table element.
+
+[![Edit euka-datatables](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/euka-datatables-7ll3n?fontsize=14)
 
 # Features
 * Pagination
@@ -22,6 +22,8 @@ A react data table component built on top of html table element.
 * Child Tables  
 * Language Settings
 * Server Side Handling
+* Footer Rows
+* Styling
 
 # Getting Started
 Install:
@@ -394,6 +396,32 @@ let data = newData;//newData being the data from the server response
 this.setState({data, options});//update the state that manages EukaDataTable to reflect the server response.
 ```
 
+# Footer Rows
+
+Footer rows stick at the bottom of the table irregardless of table changes. To set a table row, a table level option named 'footerRows' is used. Note that footer rows follow the same declaration as any other row in terms of column naming.
+When collapsed, the cells of a footer row do not display column name like the cells of ordinary rows do.
+
+```javascript
+let footerRows = [{name:'100', contact:'200', address:'300'}];//the column naming is similar to that of ordinary rows
+let options = {//table options
+    footerRows:footerRows
+};
+```
+To differentiate between ordinary rows and footer rows during custom render:
+
+```javascript
+options:{//column options
+   customCellRender:(value, record, {isFooterRow})=>{
+       //the initial 'value' before customization
+       //the actual 'record' from the table data
+       if(isFooterRow){
+           return 'Total: '+value;//this can also be a html element or react component
+       }
+       return value; //this can also be a html element or react component
+   }
+}
+```
+
 # Styling
 
 Create a css file with custom styling as shown below. Import the file in the class that renders EukaDataTable.
@@ -404,8 +432,16 @@ Create a css file with custom styling as shown below. Import the file in the cla
     color: black;
 }
 .euka-datatables .pagination button.active {
-    background: #4DAF50;
+    background: #4DAF50!important;
     color: white;
 }
+.euka-datatables tr.footer-row{
+    font-weight: bold!important;
+}
+.euka-datatables tr.footer-row td{
+    border-top: 2px solid black!important;
+}
 ```
+
+
 

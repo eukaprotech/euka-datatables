@@ -170,11 +170,12 @@ The cellInformation has below properties:
 
 # Search
 Search is a table level option named 'search'. By default search is enabled. 
-Disable search by setting 'search' to false in table options.
+Disable search by setting 'search' to false in table options. Set initial search text if necessary.
 
 ```javascript
 let options = {//table options
-    search:true
+    search:true,
+    searchText:""
 };
 ```
 
@@ -411,12 +412,26 @@ let options = {//table options
     footerRows:footerRows
 };
 ```
+To differentiate between ordinary rows and footer rows during custom render:
+
+```javascript
+options:{//column options
+   customCellRender:(value, record, {isFooterRow})=>{
+       //the initial 'value' before customization
+       //the actual 'record' from the table data
+       if(isFooterRow){
+           return 'Total: '+value;//this can also be a html element or react component
+       }
+       return value; //this can also be a html element or react component
+   }
+}
+```
 
 # Styling
 
 Create a css file with custom styling as shown below. Import the file in the class that renders EukaDataTable.
 
-```
+```css
 .euka-datatables .datatable-wrapper {
     background: white;
     color: black;

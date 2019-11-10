@@ -414,7 +414,7 @@ let options = {//table options
 
 Create a css file with custom styling as shown below. Import the file in the class that renders EukaDataTable.
 
-```
+```css
 .euka-datatables .datatable-wrapper {
     background: white;
     color: black;
