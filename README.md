@@ -234,6 +234,7 @@ let columns = [
            customCellRender:(value, record, metadata)=>{
                //the initial 'value' before customization
                //the actual 'record' from the table data
+               //metadata is an object: {isFooterRow:boolean, label:the value of the column's label}
                return record.contact+' ('+record.name+')'; //this can also be a html element or react component
            }
         } 
