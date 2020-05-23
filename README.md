@@ -231,7 +231,7 @@ let columns = [
         name:'address',
         label:'Address',
         options:{//column options
-           customCellRender:(value, record)=>{
+           customCellRender:(value, record, metadata)=>{
                //the initial 'value' before customization
                //the actual 'record' from the table data
                return record.contact+' ('+record.name+')'; //this can also be a html element or react component
@@ -248,9 +248,10 @@ To listen to changes in the rows selected set 'onRowsSelect' in table options.
 ```javascript
 let options = {//table options
     selectRows:true,
-    onRowsSelect:(selectedDataIndices, selectedData)=>{
-        //'selectedDataIndices' is an array of original indices of the selected records from the table data
-        //'selectedData' is an array of the selected records from the table data
+    onRowsSelect:(selectedDataIndices, selectedData, parentRecord)=>{
+        //'selectedDataIndices': is an array of original indices of the selected records from the table data
+        //'selectedData': is an array of the selected records from the table data
+        //'parentRecord': in case a table row has its childTable rows being selected, the table row is represented by 'parentRecord'
     }
 };
 ```
@@ -416,9 +417,10 @@ To differentiate between ordinary rows and footer rows during custom render:
 
 ```javascript
 options:{//column options
-   customCellRender:(value, record, {isFooterRow})=>{
+   customCellRender:(value, record, metadata)=>{
        //the initial 'value' before customization
        //the actual 'record' from the table data
+       let isFooterRow = metadata.isFooterRow;
        if(isFooterRow){
            return 'Total: '+value;//this can also be a html element or react component
        }
@@ -431,7 +433,7 @@ options:{//column options
 
 Create a css file with custom styling as shown below. Import the file in the class that renders EukaDataTable.
 
-```css
+```
 .euka-datatables .datatable-wrapper {
     background: white;
     color: black;
