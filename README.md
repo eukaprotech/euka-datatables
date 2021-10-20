@@ -1,9 +1,12 @@
-![](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/Screenshot2019-07-29at07.17.14.png)
-
-[View more screenshots](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/README.md "View screenshots")
+# EukaDatatables
 
 # Description
 A react data table component built on top of html table element.
+
+
+![](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/Screenshot2019-07-29at07.17.14.png)
+
+[View more screenshots](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/README.md "View screenshots")
 
 [![Edit euka-datatables](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/euka-datatables-7ll3n?fontsize=14)    [![NPM](https://nodei.co/npm/euka-datatables.png?compact=true)](https://nodei.co/npm/euka-datatables/)  ![npm](https://img.shields.io/npm/dt/euka-datatables)
 
