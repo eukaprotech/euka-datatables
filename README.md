@@ -251,6 +251,7 @@ To listen to changes in the rows selected set 'onRowsSelect' in table options.
 ```javascript
 let options = {//table options
     selectRows:true,
+    selectAllMode:'allPages',//target pages for the records to be selected by the select all checkbox. options: 'allPages', 'currentPage'
     onRowsSelect:(selectedDataIndices, selectedData, parentRecord)=>{
         //'selectedDataIndices': is an array of original indices of the selected records from the table data
         //'selectedData': is an array of the selected records from the table data
