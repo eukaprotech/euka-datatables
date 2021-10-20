@@ -1,4 +1,4 @@
-# EukaDatatables
+# Euka-Datatables
 A react data table component built on top of html table element.
 
 ![](https://github.com/eukaprotech/euka-datatables/blob/master/screenshots/Screenshot2019-07-29at07.17.14.png)
