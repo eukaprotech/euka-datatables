@@ -8,26 +8,28 @@ A react data table component built on top of html table element.
 [![Edit euka-datatables](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/euka-datatables-7ll3n?fontsize=14)    [![NPM](https://nodei.co/npm/euka-datatables.png?compact=true)](https://nodei.co/npm/euka-datatables/)  ![npm](https://img.shields.io/npm/dt/euka-datatables)
 
 # Features
-* Pagination
+* [Getting Started](#getting-started)
+* [Usage](#usage)
+* [Pagination](#pagination)
    * Set initial page
    * Set records per page
    * Set records per page options
-* Listen to table updates
-* Listen to row and cell click
-* Search
-* Sort
-* Custom Cell Render
-* Select Rows
+* [Listen to table updates](#listent-to-table-updates)
+* [Listen to row and cell click](#listen-to-row-and-cell-click)
+* [Search](#search)
+* [Sort](#sort)
+* [Custom Cell Render](#custom-cell-render)
+* [Select Rows](#select-rows)
    * Listen to selection changes 
-* Responsiveness
+* [Responsiveness](#responsiveness)
    * Collapsible Mode
    * Stacked Mode
    * Scrollable Mode
-* Child Tables  
-* Language Settings
-* Server Side Handling
-* Footer Rows
-* Styling
+* [Child Tables](#child-tables)  
+* [Language Settings](#language-settings)
+* [Server Side Handling](#server-side-handling)
+* [Footer Rows](#footer-rows)
+* [Styling](#footer-rows)
 
 # Getting Started
 Install:
@@ -77,7 +79,7 @@ let options = {
 />
 ```
 
-# Note
+#### Note
 EukaDatatable has options for the table (```table level options```) as well as options for each column (```column level options```).
    
 # Pagination
