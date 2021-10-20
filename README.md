@@ -180,7 +180,7 @@ let options = {//table options
 ```
 
 # Sort
-Sort is a column level option named 'sort'. By default sort is enable. 
+Sort is a column level option named 'sort'. By default column sort is enabled. 
 Disable column sort by setting 'sort' to false in column options.
 
 ```javascript
@@ -208,7 +208,7 @@ To set the initial sort variables already applied to the data, use table level o
 ```javascript
 let options = {//table options
     sortingProperty:'', //column name used to sort the data
-    sortingColumnIndex:-1, //index of column used to sort the data
+    sortingColumnIndex:1, //index of column used to sort the data, necessary to distinguish a column since different columns may be using the same sortingProperty
     sortedAscending:true  // set to false if the data is sorted in descending order
 };
 ```
