@@ -14,8 +14,8 @@ A react data table component built on top of html table element.
    * Set initial page
    * Set records per page
    * Set records per page options
-* [Listen to table updates](#listent-to-table-updates)
-* [Listen to row and cell click](#listen-to-row-and-cell-click)
+* [Listen to Table Updates](#listen-to-table-updates)
+* [Listen to Row and Cell Click](#listen-to-row-and-cell-click)
 * [Search](#search)
 * [Sort](#sort)
 * [Custom Cell Render](#custom-cell-render)
@@ -29,7 +29,7 @@ A react data table component built on top of html table element.
 * [Language Settings](#language-settings)
 * [Server Side Handling](#server-side-handling)
 * [Footer Rows](#footer-rows)
-* [Styling](#footer-rows)
+* [Styling](#styling)
 
 # Getting Started
 Install:
